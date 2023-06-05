@@ -1,8 +1,9 @@
 class Post < ApplicationRecord
+  self.table_name = "verifi_posts"
   belongs_to :user
-  has_many :comments, dependent: :destroy
+  has_many :comments, foreign_key: "verifi_post_id", dependent: :destroy
   acts_as_taggable_on :tags
-  has_many :notifications, dependent: :destroy
+  has_many :notifications,foreign_key: "verifi_post_id", dependent: :destroy
   has_one_attached :photo
   validates :title, presence: true
 

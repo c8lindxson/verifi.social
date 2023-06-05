@@ -1,7 +1,8 @@
 class ImageResult < ApplicationRecord
+  self.table_name = "verifi_image_results"
   belongs_to :user
   has_one_attached :photo
-  has_many :cells, dependent: :destroy
+  has_many :cells, foreign_key: "verifi_image_result_id", dependent: :destroy
 
   def risk_category
     # method to display on the index page if something is at risk or not

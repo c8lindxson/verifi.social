@@ -1,7 +1,8 @@
 require "open-uri"
 
 class Cell < ApplicationRecord
-  belongs_to :image_result
+  self.table_name = "verifi_cells"
+  belongs_to :image_result, foreign_key: "verifi_image_result_id"
   has_one_attached :photo
   validates_uniqueness_of :image_result, scope: [:col, :row]
   # before_create :verifi

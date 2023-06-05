@@ -7,7 +7,7 @@ Check uploaded photos for risk of removal from Instagram.
 <img width="152" alt="verifi-details graph" src="https://github.com/c8lindxson/verifi.social/assets/128205478/7fb8ad90-37ed-49f2-8f3e-f4e97f87ff00">
 <img width="152" alt="verifi-details blur feature" src="https://github.com/c8lindxson/verifi.social/assets/128205478/8c5c04e7-c3b9-4a8a-82ee-db15cb08c9e2">
 <br>
-App home: https://WHATEVER.herokuapp.com
+App home: (https://verifi-social.herokuapp.com/)
    
 
 ## Getting Started

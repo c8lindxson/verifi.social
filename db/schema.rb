@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_06_01_081029) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_05_035625) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -84,10 +84,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_01_081029) do
     t.float "erotica"
     t.float "suggestive"
     t.float "drugs"
-    t.float "nazi"
-    t.float "confederate"
-    t.float "supremacist"
-    t.float "terrorist"
     t.float "gore"
     t.string "profanity_type"
     t.string "profanity_match"
@@ -159,7 +155,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_01_081029) do
     t.datetime "updated_at", null: false
     t.string "user_name"
     t.integer "age"
-    t.boolean "admin"
+    t.boolean "admin", default: false, null: false
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end

@@ -1,6 +1,7 @@
 Verifi Social
 
 Check uploaded photos for risk of removal from Instagram.
+Users can see original photo stats, blur a portion of the photo and re-verifi, and break down a photo into a grid to see what portion of the photo exactly causes removal risks.
 
 <img width="146" alt="verifi-my collection" src="https://github.com/c8lindxson/verifi.social/assets/128205478/1dc80754-47be-495c-921f-c33da37cf1ba">
 <img width="150" alt="verifi-details grid" src="https://github.com/c8lindxson/verifi.social/assets/128205478/21623793-1dc4-4fcf-b8d2-98642742bb08">

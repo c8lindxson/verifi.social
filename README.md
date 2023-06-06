@@ -1,4 +1,4 @@
-Verifi Social
+# Verifi Social
 
 Check uploaded photos for risk of removal from Instagram.
 Users can see original photo stats, blur a portion of the photo and re-verifi, and break down a photo into a grid to see what portion of the photo exactly causes removal risks.
@@ -9,6 +9,9 @@ Users can see original photo stats, blur a portion of the photo and re-verifi, a
 <img width="152" alt="verifi-details blur feature" src="https://github.com/c8lindxson/verifi.social/assets/128205478/8c5c04e7-c3b9-4a8a-82ee-db15cb08c9e2">
 <br>
 App home: (https://verifi-social.herokuapp.com/)
+   
+   
+Utilizes background jobs to slowly breakdown and check photos to reduce wait times. API used does not have unlimited free access so please be mindful of your grid usage as it counts as 25 seperate API calls.   
    
 
 ## Getting Started

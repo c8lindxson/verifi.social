@@ -60,7 +60,7 @@ rails s
 Thank you to the Le Wagon Tokyo team for all the support during this project. This app came with some interesting challenges and I learned a lot as Back End Lead!
 
 ## Team Members
-- [Cai Dixon] Back End Lead
+- Cai Dixon- Back End Lead
 - Fumi Nozawa- Front End Lead
 - Anne Garvey- Lead Dev
 - Taylor Ellis- Project Manager and Founder
